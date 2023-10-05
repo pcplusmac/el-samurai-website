@@ -97,6 +97,11 @@
          
        }
 
+       #outline {
+        border: 1px solid red;
+        border-radius: 5px 50% 5px 50%;
+       }
+
        /*  Style of flex-box */
        .flex-container {
         display: flex;
