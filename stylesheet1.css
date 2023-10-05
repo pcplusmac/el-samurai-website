@@ -28,7 +28,7 @@ header {
 
 aside#left {
     width: 13%;
-    height: 500px;
+    height: 200px;
     padding: 5px;
     margin: 1px;
     float: left;
@@ -36,6 +36,25 @@ aside#left {
     /* background-color: lightgray; */
     position: fixed;
     top: 120px;
+}
+
+aside#right {
+    width: 13%;
+    height: 350px;
+    border: 1px dotted black;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 3px;
+    float: left;
+    font-style:normal;
+    background-color: black;
+    background: linear-gradient(45deg,black, white
+    );
+    position: fixed;
+    top: 350px;
+    /* move inside away the edge  */
+    left: 10px
+
 }
 main {
    margin: 10px;
