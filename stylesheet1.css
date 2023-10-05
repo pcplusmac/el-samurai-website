@@ -98,8 +98,12 @@
        }
 
        #outline {
+        background-color: green;
+        background: linear-gradient(45deg,rgba(73, 192, 87, 0.1)0%,rgba(38, 111, 3, 0.8)70%);
+        color:black;
         border: 1px solid red;
         border-radius: 5px 50% 5px 50%;
+        box-shadow: 1px 1px 2px orangered;
        }
 
        /*  Style of flex-box */
