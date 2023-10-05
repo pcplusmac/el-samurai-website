@@ -15,7 +15,7 @@
            height: 3000px;
        }
        .parallax {
-            background-image: url(./laptop.jpg);
+            background-image: url(./images/laptop.jpg);
             min-height: 500px;
             background-size: cover;
             background-repeat: no-repeat;
