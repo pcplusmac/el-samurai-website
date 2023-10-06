@@ -2,8 +2,9 @@
   
   /* set header area to be visible on page */
 body {
-            
-    background-color: rgb(235, 229, 240);
+    background: linear-gradient(90deg,rgba(0,0,0,0.3), rgba(192,192,192,0.8)
+    );        
+    background-color: rgb(13, 12, 14);
     color: black;
     /*remove the gap between body and edge of webpage  */
    margin: 0px;
