@@ -48,8 +48,7 @@ aside#right {
     float: left;
     font-style:normal;
     background-color: black;
-    background: linear-gradient(45deg,black, white
-    );
+   
     position: fixed;
     top: 350px;
     /* move inside away the edge  */
@@ -71,7 +70,7 @@ h1{
 
 h2,h3 {
     margin: 0px;
-    background: radial-gradient(rgb(201, 209, 204),yellow, rgb(151, 17, 17));
+    
     border-bottom: 1px solid black;
     text-align: center;
 }
@@ -112,7 +111,16 @@ span {
  
 }
 
-#outline {
+.gradient_background {
+    background: linear-gradient(45deg,black, white
+    );
+}
+
+.gradient_title {
+    background: radial-gradient(rgb(201, 209, 204),yellow, rgb(151, 17, 17));
+}
+
+.gradient_leaf {
     background-color: green;
     background: linear-gradient(45deg,rgba(73, 192, 87, 0.1)0%,rgba(38, 111, 3, 0.8)70%);
     color:black;
