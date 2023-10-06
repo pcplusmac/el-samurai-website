@@ -9,7 +9,7 @@ body {
    margin: 0px;
    padding: 0px;
    /* add scroll bar to the page */
-   height: 3000px;
+   max-height: 3000px;
 }
 
 header {
