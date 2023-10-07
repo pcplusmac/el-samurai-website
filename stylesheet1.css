@@ -171,7 +171,16 @@ div.papa {
     font-size: 30px;
 }
 
+/* the reponsive code is not workable yet. */
+/* @media (max-width:78px){
+    #left {
+        display: none;
+    }
+} */
 
+/* @media (){
+
+} */
 
 /* div.inside-section {
 margin:auto;
