@@ -87,24 +87,29 @@ h2,h3,h4 {
 
 li {
     padding: 5px;
-    position: relative;
+    /* position: relative; */
     text-align: center;
+    
 }
 
-#my_skills li::before {
+li:hover {
+    transform: scale(2);
+}
+
+/* a::before {
     content: ' ';
-    width: 80%;
+    width: 100%;
     height: 2px;
     background-color: aquamarine;
     position: absolute;
     bottom: 0;
     left: 0;
-    /* z-index:-1; */
-}
+    
+} */
 
-#my_skills li:hover::before {
-    height: 7px;
-}
+/* a:hover::before {
+    height: 5px;
+} */
 
 p.np::first-letter {
     float: left;
