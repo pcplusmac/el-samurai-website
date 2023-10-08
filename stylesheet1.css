@@ -87,6 +87,7 @@ h2,h3,h4 {
 li {
     padding: 5px;
     position: relative;
+    text-align: center;
 }
 
 #my_skills li::before {
@@ -117,6 +118,11 @@ p.underL::first-line {
 ::selection {
     background-color: yellow;
 }
+::marker {
+    color: yellow;
+    font-size: 23px;
+}
+
 p {
     margin: 3px;
     padding: 5px;
@@ -148,11 +154,17 @@ span {
  
 }
 
-div.papa {
+.items {
+    margin: 10px 5px ;
+    border: 1px dotted black;
+    
+    border-radius: 6px;
+}
+
+.projectSubTitle {
     width: 190px;
-    height: 30px;
+    height: auto; 
     border: 1px solid black;
-    margin: auto;
     border-radius: 85%;
 }
 
