@@ -241,7 +241,8 @@ span {
 /*  Style of flex-box */
 .flex-container {
     display: flex;
-    background-color: DodgerBlue;
+    /* background-color: DodgerBlue; */
+    background-color: black;
     flex-wrap: wrap;
 }
 
