@@ -255,7 +255,7 @@ span {
     position: absolute;
     top:33px;
     left:0;
-    animation-name: itisme;
+    animation-name: itisme3;
     animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
@@ -273,8 +273,28 @@ span {
         background-color: black;
         left: 100%;
     }
+   
 }
+@keyframes itisme3 {
+    0% {
+        color: black;
+        background-color: rgb(233, 222, 222);
+        top: 33px;
+        left: 0;
+    }
+    50% {
+        color: rgb(238, 235, 235);
+        background-color: black;
+        left: 50%;
+    }
+   100% {
+        color: black;
+        background-color: rgb(233, 222, 222);
+        top: 33px;
+        left: 100%;
+    }
 
+}
 /* the reponsive code is not workable yet. */
 /* @media (max-width:78px){
     #left {
