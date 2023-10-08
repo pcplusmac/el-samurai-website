@@ -140,6 +140,7 @@ p.underL::first-line {
 
 ::selection {
     background-color: yellow;
+    color: black;
 }
 ::marker {
     color: rgb(72, 0, 255);
