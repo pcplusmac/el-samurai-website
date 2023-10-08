@@ -85,11 +85,24 @@ h2,h3,h4 {
 
 
 li {
-padding: 5px;
+    padding: 5px;
+    position: relative;
 }
 
+#my_skills li::before {
+    content: ' ';
+    width: 100%;
+    height: 2px;
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* z-index:-1; */
+}
 
-
+#my_skills li:hover::before {
+    height: 7px;
+}
 
 p {
     margin: 3px;
@@ -179,6 +192,8 @@ div.papa {
     padding: 20px;
     font-size: 30px;
 }
+
+
 
 /* the reponsive code is not workable yet. */
 /* @media (max-width:78px){
