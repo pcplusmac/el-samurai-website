@@ -221,7 +221,7 @@ span {
 
 .parallax {
     background-image: url(./images/laptop.jpg);
-    min-height: 500px;
+    min-height: 60px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -252,17 +252,20 @@ span {
     font-size: 30px;
     color: whitesmoke;
     flex-basis:40%;
+    
 }
 .flex-container div.left {
     flex-basis: 25%; 
     flex-shrink: 0;
     flex-grow: 0;
+    
 }
     
 
 
 .flex-container div.right {
     flex-basis: 70%;
+    overflow: auto;
    
     
 }
