@@ -159,7 +159,16 @@ span {
     top:100px;
  
 }
-
+#bottom {
+   
+    font-size: large;
+    transition: all 0.2;
+   
+}
+#bottom:hover {
+   
+    font-size: 26px;
+}
 .items {
     margin: 10px 5px ;
     border: 1px dotted black;
