@@ -6,8 +6,9 @@
   /* set header area to be visible on page */
 body {
     background: linear-gradient(270deg,rgba(96, 96, 94, 0.8), rgba(192,192,192,0.8)
-    );        
-    background-color: rgb(13, 12, 14);
+    );  
+    background-color: rgb(165, 172, 169);      
+    /* background-color: rgb(13, 12, 14); */
     color: black;
     /*remove the gap between body and edge of webpage  */
    margin: 0px;
@@ -236,15 +237,30 @@ span {
 .flex-container {
     display: flex;
     background-color: DodgerBlue;
+    flex-wrap: wrap;
 }
 
 .flex-container > div {
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    color: whitesmoke;
+    flex-basis:40%;
 }
+.flex-container div.left {
+    flex-basis: 25%; 
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+    
 
+
+.flex-container div.right {
+    flex-basis: 70%;
+   
+    
+}
 .vivid {
     width: 200px;
     height: 30px;
