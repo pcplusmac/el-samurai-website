@@ -104,6 +104,18 @@ li {
     height: 7px;
 }
 
+::first-letter {
+    float: left;
+    font-size: larger;
+}
+
+::first-line {
+    text-decoration: underline;
+}
+
+::selection {
+    background-color: yellow;
+}
 p {
     margin: 3px;
     padding: 5px;
