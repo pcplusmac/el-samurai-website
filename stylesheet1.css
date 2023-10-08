@@ -104,12 +104,13 @@ li {
     height: 7px;
 }
 
-::first-letter {
+p.np::first-letter {
     float: left;
-    font-size: larger;
+    font-size: large;
+    font-weight: bold;
 }
 
-::first-line {
+p.underL::first-line {
     text-decoration: underline;
 }
 
@@ -128,7 +129,7 @@ span {
 #grid {
    display: grid;
    grid-template-columns: auto auto auto auto;
-   gap: 2px;
+   gap: 5px;
 }
 
 #project1 {
