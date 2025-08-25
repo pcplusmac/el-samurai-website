@@ -7,7 +7,7 @@
 body {
     background: linear-gradient(270deg,rgba(96, 96, 94, 0.8), rgba(192,192,192,0.8)
     );  
-    background-color: rgb(165, 172, 169);      
+    background-color: #fff;      
     /* background-color: rgb(13, 12, 14); */
     color: black;
     /*remove the gap between body and edge of webpage  */
