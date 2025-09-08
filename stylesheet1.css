@@ -5,20 +5,21 @@
   }
   /* set header area to be visible on page */
 body {
-    background: linear-gradient(270deg,rgba(96, 96, 94, 0.8), rgba(192,192,192,0.8)
-    );  
-    background-color: #fff;      
-    /* background-color: rgb(13, 12, 14); */
+    /* background: linear-gradient(270deg,rgba(96, 96, 94, 0.8), rgba(192,192,192,0.8) */
+    /* );   */
+    /* background-color: #fff;       */
+    background: #2A7B9B;
+    background: linear-gradient(39deg,
+                             rgba(42, 123, 155, 1) 0%,
+                            rgba(205, 217, 37, 0.65) 55%,
+                            rgba(83, 237, 121, 0.59) 91%);
     color: black;
     /*remove the gap between body and edge of webpage  */
-   margin: 0px;
-   padding: 0px;
-   /* add scroll bar to the page */
-   /* min-height: 3000px; */
-   overflow: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
 
-  
-}
+  }
 
 header {
    background-color: #040704;
@@ -39,35 +40,7 @@ nav {
     margin: 3px;
     padding: 5px;
  }
-aside#left {
-    width: 13%;
-    height: 200px;
-    padding: 5px;
-    margin: 1px;
-    float: left;
-    font-style: italic;
-    /* background-color: lightgray; */
-    position: fixed;
-    top: 120px;
-}
 
-aside#right {
-    width: 13%;
-    height: 350px;
-    border: 1px dotted black;
-    border-radius: 30px;
-    padding: 5px;
-    margin: 3px;
-    float: left;
-    font-style:normal;
-    background-color: black;
-   
-    position: fixed;
-    top: 350px;
-    /* move inside away the edge  */
-    left: 10px
-
-}
 main {
    margin: 30px 0px 5px;
    padding: 0px;
