@@ -133,11 +133,20 @@ span {
      margin: 3px;
 }
 
-#music-board {
+.media-container {
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     margin: 10px;
-    padding: 5px;
+    padding-top: 56.25%;
+    overflow: hidden;
+    position: relative;
+}
+.media-container iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 #grid {
    display: grid;
