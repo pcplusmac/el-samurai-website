@@ -8,6 +8,47 @@
     <title>El-Samurai</title>
     <style>
         /* add the internal style code here if needs */
+         * {
+            box-sizing: border-box;
+        }
+        #music-hub {
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        #title {
+            flex-basis: 100%;
+            flex-grow: 0;
+            flex-shrink: 0;
+            border-bottom: 3px solid black;
+        }
+        #container div {
+            /* this line  */
+           /* border:1px solid red;  */
+        }
+        .tool {
+            flex-basis: 30%;
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+        .content {
+            flex-basis: 70%;
+            flex-grow: 0;
+            flex-shrink: 0;
+            padding-top: 56.25%;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .content iframe {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            
+        }
+        
       
     </style>
 </head>
@@ -35,16 +76,31 @@
         </div>
        
         <div class="media-container" id="music-hub">
-            <iframe 
-                width="560" 
-                height="315" 
-                src="https://www.youtube.com/embed/SaDZzpwa9yA?si=d9ckFpjWN9Dd2bia" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                allowfullscreen>
-            </iframe>
+            <div id="title"></div>
+            
+            <div class="content">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/SaDZzpwa9yA?si=d9ckFpjWN9Dd2bia" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="tool">
+                <div class="tool-box">
+                    <button> hide/show</button>
+                </div>
+                <div class="tool-box">
+                    
+                </div>
+                <div class="tool-box"></div>  
+            </div>
+            
+            
 
            
         </div>
